@@ -1,0 +1,17 @@
+[package]
+name = "is_apple_silicon"
+version = "0.1.0"
+authors = ["Maxmad68 <maxime@madrau.fr>"]
+edition = "2018"
+
+[profile.release]
+opt-level = 'z'     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = 'abort'     # Abort on panic
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1"
+colour = "0.6.0"
