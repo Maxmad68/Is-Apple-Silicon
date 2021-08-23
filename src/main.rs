@@ -21,9 +21,9 @@ const MAGIC_64_LITTLE_ENDIAN: u32 =  0xCFFAEDFE;
 // Architectures
 const CPU_I386: u32 =	0x00000007;
 const CPU_X86_64: u32 =	0x01000007;
-const CPU_ARM: u32 =		0x0000000C;
+const CPU_ARM: u32 =	0x0000000C;
 const CPU_ARM64: u32 =	0x0100000C;
-const CPU_PPC: u32 =		0x00000012;
+const CPU_PPC: u32 =	0x00000012;
 const CPU_PPC64: u32 =	0x01000012;
 
 
